@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Praca z systemem GIT
+title: GIT
 ---
 
 ## Zacznij korzystać z serwisu GitHub

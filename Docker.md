@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Praca z systemem Docker
+title: Docker
 ---
 
 Wszystkie potrzebne programy będą dostarczane w postaci kontenerów dockera.

@@ -13,11 +13,11 @@ exclude:      ["*.Rmd"]
 
 
 # Setup
-title:               Analiza Danych w czasie rzeczywistym
-tagline:             'kurs dla studentów SGH'
+title:               Real-Time Analytics
+tagline:             'Lectures for SGH students'
 description:         'Real-Time Analytics'
-url:                 https://sebkaz.github.io/RealTime
-baseurl:             "/RealTime"             
+url:                 https://sebkaz.github.io/RealTimeEN
+baseurl:             "/RealTimeEN"             
 paginate:            5
 
 # About/contact
