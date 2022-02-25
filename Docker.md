@@ -3,27 +3,27 @@ layout: page
 title: Docker
 ---
 
-Wszystkie potrzebne programy będą dostarczane w postaci kontenerów dockera.
+All the necessary programs will be delivered in the form of docker containers.
 
-## Zacznij korzystać z Dockera
+## Start with Docker
 
-W celu pobrania oprogramowania docer na swój system przejdź do [strony](https://docs.docker.com/get-docker/).
+In order to download the docer software to your system, go to [ the page](https://docs.docker.com/get-docker/).
 
-Jeżli wszystko zainstalowało się prawidłowo wykonaj następujące polecenia:
+If everything is installed correctly, follow these instructions:
 
-1. Sprawdź zainstalowaną wersję
+1. Check the installed version
 
 ```{bash}
 docker --version
 ```
 
-2. Ściągnij i uruchom obraz `Hello World` i 
+2. Download and run the image `Hello World` and
 
 ```{bash}
 docker run hello-world
 ```
 
-3. Przegląd ściągnietych obrazów:
+3. Overview of downloaded images:
 
 ```{bash}
 docker image ls
@@ -31,7 +31,7 @@ docker image ls
 docker images
 ```
 
-4. Przegląd uruchomionych kontenerów:
+4. Overview of running containers:
 
 ```{bash}
 docker ps 
@@ -39,20 +39,20 @@ docker ps
 docker ps -all
 ```
 
-5. Zatrzymanie uruchomionego kontenera: 
+5. Stopping a running container: 
 
 ```{bash}
 docker stop <CONTAINER ID>
 ```
 
-6. Usunięcie kontenera
+6. Container removal
 ```{bash}
 docker rm -f <CONTAINER ID>
 ```
 
-Polecam również [krótkie intro](https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98)
+I also recommend [short intro](https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98)
 
 
-## Docker jako narzędzie kontyneryzacji aplikacji
+## Docker as an application continuation tool
 
-[Docker z jupyter notebookiem](https://hub.docker.com/repository/docker/sebkaz/docker-data-science)
+[Docker with jupyter notebook](https://hub.docker.com/repository/docker/sebkaz/docker-data-science)
