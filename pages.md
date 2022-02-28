@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Strony WWW
+title: Interesting www pages
 ---
 
 
@@ -13,7 +13,7 @@ title: Strony WWW
 5. [Anaconda](http://continuum.io/downloads)
 6. [Docker](https://docs.docker.com/get-docker/)
 
-## Pakiety python dla analiz danych
+## Python packages for data analysis 
 
 1. [NumPy](http://www.numpy.org)
 2. [SciPy](http://www.scipy.org)
@@ -27,7 +27,7 @@ title: Strony WWW
 10. [TensorFlow](https://www.tensorflow.org)
 11. [Virtual ENV](https://docs.python.org/3/tutorial/venv.html)
 
-## Edytory tekstu
+## Text and code editors
 
 1. [Notepad++](https://notepad-plus-plus.org/download)
 2. [Sublime Text](https://www.sublimetext.com)
@@ -48,11 +48,11 @@ title: Strony WWW
 7. [Jupyter lab](https://www.youtube.com/watch?v=NSiPeoDpwuI)
 8. [Speed up jupyter notebook](https://towardsdatascience.com/speed-up-jupyter-notebooks-20716cbe2025)
 
-## Przetwarzanie danych
+## Data Transformations
 
 1. [data cookbook](https://www.datafix.com.au/cookbook/index.html)
 
-## Zbiory danych
+## Data sets
 
 - [Internet Archive](https://oreil.ly/tIjl9)
 - [Reddit](http://reddit.com/r/datasets)
@@ -69,55 +69,6 @@ title: Strony WWW
 2. [40+ Python Statistics For Data Science Resources](https://www.datacamp.com/community/tutorials/python-statistics-data-science)
 3. [Practical Business Python](http://pbpython.com/)
 
-## kursy ML
+## Machine Learning course
 
-1. [Kurs Machine Learning - Andrew Ng, Stanford](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
-
-## Quantum Computing
-
-Dla osób zainteresowanych kwantami podsyłam jeszcze linki do stron/grup, które warto śledzić (są też na końcu ankiety).
-Jeśli chcesz otrzymywać informacje o kolejnych inicjatywach QWorld, QPoland i Quantum AI Foundation, zachęcamy do śledzenia naszych stron na Facebooku:
-
-- [QPoland fb](https://www.facebook.com/QPoland-110308580421373)
-- [QWorld19](https://www.facebook.com/qworld19)
-- [Quantum-AI-Foundation](https://www.facebook.com/Quantum-AI-Foundation-101363181408726)
-- [Warsaw Quantum Computing Group](https://www.facebook.com/Warsaw-Quantum-Computing-Group-1936160966506139)
-
-Grupy Facebookowe: 
-
-https://www.facebook.com/groups/qpoland
-https://www.facebook.com/groups/quantumai
-https://www.facebook.com/groups/warsaw.quantum
-
-Listy mailingowe:
-
-https://groups.google.com/g/qpoland
-https://groups.google.com/forum/#!forum/warsaw-quantum-computing-group
-
-Slack:
-
-QPoland: qpoland.slack.com
-
-QWorld: qworldworkspace.slack.com
-
-a także śledzenia naszych profili na Twitter:
-
-https://twitter.com/QWorld19
-https://twitter.com/QPolandCousin
-https://twitter.com/qaifoundation
-
-na LinkedIn:
-
-https://www.linkedin.com/company/qworld19
-https://www.linkedin.com/company/quantumaifoundation
-
-strony www:
-
-https://qworld.lu.lv
-https://qworld.lu.lv/index.php/qpoland
-http://www.qaif.org
-
-i kanałów na YouTube:
-
-(QWorld) https://www.youtube.com/channel/UCLaX8OcDqXlJDkay8zVFegg/videos
-(Quantum AI Foundation) https://www.youtube.com/channel/UCoQAyPU5KQEpMOMDUN0j3IQ/videos
+1. [ Machine Learning - Andrew Ng, Stanford](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)

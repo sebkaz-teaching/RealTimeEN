@@ -3,81 +3,80 @@ layout: page
 title: GIT
 ---
 
-## Zacznij korzystać z serwisu GitHub
+## Start with GitHub
 
-Tekst na podstawie [strony](http://pbiecek.github.io/Przewodnik/Programowanie/jak_korzystac_z_serwisu_github_i_waffle.html)
+Text from [web site](http://pbiecek.github.io/Przewodnik/Programowanie/jak_korzystac_z_serwisu_github_i_waffle.html)
 
-![Final](img/final.gif)
 
-Pracując nad projektem np. praca magisterska, (samodzielnie lub w zespole) często potrzebujesz sprawdzić jakie zmiany, kiedy i przez kogo zostały wprowadzone do projektu.
-W zadaniu tym świetnie sprawdza się `system kontroli wersji` czyli [GIT](https://git-scm.com). 
 
-Git możesz pobrać i zainstalować jak zwykły program na dowolnym komputerze.
-Jednak najczęściej (małe projekty) korzysta się z serwisów z jakimś systemem git. 
-Jednym z najbardziej rozpoznawanych jest [GitHub](www.github.com) dzięki któremu możesz korzystać z systemu git bez jego instalacji na swoim komputerze.
+When You working on a project, e.g. a master's thesis, (alone or in a team) you often need to check what changes, when and by whom were introduced to the project.
+The "version control system" or [GIT](https://git-scm.com) works great for this task.
 
-W darmowej wersji serwisu `GitHub` swoje pliki możesz przechowywać w publicznych (dostęp mają wszyscy) repozytoriach.  
-Skupimy się wyłącznie na darmowej wersji serwisu GitHub.
+You can download and install Git like a regular program on any computer.
+However, most often (small projects) you use websites with some kind of git system.
+One of the most recognized is [GitHub] (www.github.com) which allows you to use the git system without installing it on your computer.
+
+In the free version of the `GitHub` website, you can store your files in public (everyone has access) repositories.
+We will only focus on the free version of GitHub:
 
 ```{bash}
 git --version
 ```
 
-## Struktura GitHuba
+## GitHub
 
-Na najwyższym poziomie znajdują się konta indywidualne (np [http://github.com/sebkaz](http://github.com/sebkaz), bądź zakładane przez organizacje. 
-Użytkownicy indywidualni mogą tworzyć **repozytoria** publiczne (`public` ) bądź prywatne (`private`). 
+At the highest level, there are individual accounts (eg. [http://github.com/sebkaz](http://github.com/sebkaz) or those set up by organizations.
+Individual users can create ** repositories ** public (`public`) or private (` private`).
 
-Jeden plik nie powinien przekraczać 100 MB.
+One file should not exceed 100 MB.
 
-**Repo** (skrót do repozytorium) tworzymy za pomocą `Create a new repository`.
- Każde repo powinno mieć swoją indywidualną nazwę. 
+**Repo** (shortcut to repository) is created with `Create a new repository`.
+ Each repo should have an individual name.
 
-### Branche
+### Branches
 
-Główna (tworzona domyślnie) gałąź rapozytorium ma nazwę `master`.
+The main (created by default) branch of the repository is named `master`.
 
 
-### Najważniejsze polecnia do zapamiętania
+### Most important commends
 
-* _ściąganie repozytorium z sieci_
+* _clone of Your repository_
 
 ```{bash}
 git clone https://adres_repo.git
 ```
 
-> W przypadku githuba możesz pobrać repozytorium jako plik zip.
+> In github case, you can download the repository as a 'zip' file.
 
-* _Tworzenie repozytorium dla lokalnego katalogu_
+* _Repository for local directory_
 
 ```{bash}
-# tworzenie nowego katalogu
+# new directory
 mkdir datamining
-# przejście do katalogu
 cd datamining
-# inicjalizacja repozytorium w katalogu
+# init repo
 git init
-# powinien pojawić się ukryty katalog .git
-# dodajmy plik
+# there sould be a .git new directory
+# add file
 echo "Info " >> README.md
 ```
 
-* Połącz lokalne repozytorium z kontem na githubie
+* local and web version connection 
 
 ```{bash}
 git remote add origin https://github.com/<twojGit>/nazwa.git
 ```
 
-* Obsługa w 3 krokach
+* 3 steps
 
 ```{bash}
-# sprawdź zmiany jakie zostały dokonane
+# status check
 git status
-# 1. dodaj wszystkie zmiany
+# 1. add all changes
 git add .
-# 2. zapisz bierzący stan wraz z informacją co zrobiłeś
-git commit -m " opis "
-# 3. potem już zostaje tylko
+# 2. commit all changes with message
+git commit -m " message "
+# 3. and
 git push origin master
 ```
-Warto obejrzeć [Youtube course](https://www.youtube.com/watch?v=HVsySz-h9r4).
+You can watch [Youtube course](https://www.youtube.com/watch?v=HVsySz-h9r4).
