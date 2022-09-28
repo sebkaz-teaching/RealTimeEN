@@ -33,7 +33,7 @@ The course will present the so called lambda and kappa structures for data proce
 Theoretical knowledge will be gained (apart from the lecture part) through the implementation of test cases in tools such as Apache Spark, Nifi, Microsoft Azure and SAS.
 During laboratory classes student will benefit from fully understand the latest information technologies related to real-time data processing.
 
-## Program
+## List of Topics
 
 1.  Modelling, learning and prediction in batch mode (offline learning) and incremental (online learning) modes. Problems of incremental machine learning.
 2.  Data processing models in Big Data. From flat files to Data Lake. Real-time data myth and facts
@@ -47,11 +47,11 @@ During laboratory classes student will benefit from fully understand the latest 
 10. IT architecture of Big Data processing. Preparation of a virtual env for Apache Spark.
 
 
-## Realizacja przedmiotu
+## Conditions for passing
 
-- test 30\%
-- practical test 30\%
-- group project 40\%
+- test 30%
+- practical test 30% (IF)
+- group project 40% (70%)
 
 ## Books
 
