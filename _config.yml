@@ -16,8 +16,8 @@ exclude:      ["*.Rmd"]
 title:               Real-Time Analytics
 tagline:             'Lectures for SGH students'
 description:         'Real-Time Analytics'
-url:                 https://sebkaz.github.io/RealTimeEN
-baseurl:             "/RealTimeEN"             
+url:                 https://sebkaz-teaching.github.io/RealTimeEN
+baseurl:             "/RealTimeEN"
 paginate:            5
 
 # About/contact
