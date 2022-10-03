@@ -22,13 +22,15 @@ source env/bin/activate
 pip install --no-cache --update pip setuptools
 
 pip install jupyterlab numpy pandas matplotlib scipy
+
+jupyterlab
 ```
+go to web browser: _localhost:8888_
+
+## Python env with Jupyter LAB Docker Version
 
 
-
-
-
-## Older version with Jupyter notebook
+## Older Docker version with Jupyter notebook
 
 #### From GIT hub repository
 [Git](https://github.com/sebkaz/docker-data-science)
