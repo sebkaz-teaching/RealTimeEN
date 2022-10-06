@@ -15,13 +15,15 @@ python3
 I have python3 (You should't get python 2.7 version) so i get new and clear env.
 
 ```bash
-python3 -m venv env
+python3 -m venv <name of Your env>
 
-source env/bin/activate
+source <name of your env>/bin/activate
 # . env/bin/activate
-pip install --no-cache --update pip setuptools
+pip install --no-cache --upgrade pip setuptools
 
 pip install jupyterlab numpy pandas matplotlib scipy
+# or
+pip install -r requirements.txt
 
 jupyterlab
 ```

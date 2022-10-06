@@ -6,12 +6,13 @@ title: Interesting www pages
 ## From last courses
 
 1. [For beginners in data science](https://www.kaggle.com/learn)
-2. [Kubernetes Tutorial](https://www.youtube.com/watch?v=X48VuDVv0do)
-3. [Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4)
-4. [Python Tutorial for Beginners](https://www.youtube.com/watch?v=t8pPdKYpowI)
-5. [Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
-6. [The Hundred-Page Machine Learning Book by Andriy Bukov](http://themlbook.com/wiki/doku.php)
-7. [Deep - mind educational](https://github.com/deepmind/educational)
+2. [Python Tutorial for Beginners](https://www.youtube.com/watch?v=t8pPdKYpowI)
+3. [Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
+4. [The Hundred-Page Machine Learning Book by Andriy Bukov](http://themlbook.com/wiki/doku.php)
+5. [Deep - mind educational](https://github.com/deepmind/educational)
+6. [Kubernetes Tutorial](https://www.youtube.com/watch?v=X48VuDVv0do)
+7. [Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4)
+
 
 ## Software 
 
