@@ -3,8 +3,11 @@ layout: page
 title: Environment
 ---
 
-
 ## Python env with Jupyter LAB
+
+For our first a few laboratories we will use just python codes. 
+Check what is Your Python3 environment. 
+
 In the terminal try first:
 ```bash
 python
@@ -15,7 +18,8 @@ python3
 I have python3 (You should't get python 2.7 version) so i get new and clear env.
 
 
-The easiest way how to run JupyterLab with your new python env. For _<name of Your env>_ You can choos what You want. 
+The easiest way how to run JupyterLab with your new python env. 
+For _<name of Your env>_ You can choos what You want. 
 
 ```bash
 python3 -m venv <name of Your env>
