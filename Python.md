@@ -25,6 +25,3 @@ If You have internet connection and an account on [CodeWars](https://www.codewar
 
 After choosing Python, the platform will propose you a first Kata of an elementary level. 
 >> The difference between a "TEST" and an "ATTEMPT" is that the second one will make your code pass a more challenging set of validity tests.
-
-- [Python Fundamentals]()
-

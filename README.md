@@ -1,4 +1,4 @@
-# Analiza danych w czasie rzeczywistym w środowiskach Python, SAS dla studentów SGH w Warszawie.
+# Analiza danych w czasie rzeczywistym w środowiskach Python, SAS dla studentów SGH w Warszawie wersja EN.
 
 Lectures for "Real Time Analytics" on [SGH](https://sgh.waw.pl) Warsaw School of Economics.
 
