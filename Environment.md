@@ -92,3 +92,40 @@ After docker run: go to _http://localhost:8888_
 PASS: root
 
 >> !REMEMBER - I don't use -v (_volume_) option so You must save Your works all the time.
+
+
+## Apache AIRFLOW - local mode 
+
+```bash
+mkdir airflow-local
+cd airflow-local
+
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.0/dockert-compose.yaml'
+
+mkdir ./dags ./logs ./plugins
+
+echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
+
+cat .env
+```
+
+
+first run
+```bash
+docker-compose up airflow-init
+```
+
+To run env 
+```bash
+docker-compose up -d --build
+```
+
+Web browser
+```
+localhost:8080
+```
+
+to stop 
+```
+docker-compose down --volumes --rmi all
+```
