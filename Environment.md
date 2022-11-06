@@ -15,11 +15,11 @@ python
 python3
 ```
 
-I have python3 (You should't get python 2.7 version) so i get new and clear env.
+I have python3 (You shouldn't use python 2.7 version) so i get new and clear python environment.
 
 
 The easiest way how to run JupyterLab with your new python env. 
-For _<name of Your env>_ You can choos what You want. 
+For _<name of Your env>_ You can choose what You want. 
 
 ```bash
 python3 -m venv <name of Your env>
@@ -36,7 +36,7 @@ jupyterlab
 ```
 go to web browser: _localhost:8888_
 
-If You want rerun jupyterlab (after comupter reset) just go to Your folder and run: 
+If You want rerun jupyterlab (after computer reset) just go to Your folder and run: 
 
 ```bash
 source <name of your env>/bin/activate

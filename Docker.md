@@ -12,39 +12,30 @@ In order to download the docer software to your system, go to [ the page](https:
 If everything is installed correctly, follow these instructions:
 
 1. Check the installed version
-
 ```{bash}
 docker --version
 ```
 
 2. Download and run the image `Hello World` and
-
 ```{bash}
 docker run hello-world
 ```
-
 3. Overview of downloaded images:
-
 ```{bash}
 docker image ls
 
 docker images
 ```
-
 4. Overview of running containers:
-
 ```{bash}
 docker ps 
 
 docker ps -all
 ```
-
-5. Stopping a running container: 
-
+5. Stopping a running container:
 ```{bash}
 docker stop <CONTAINER ID>
 ```
-
 6. Container removal
 ```{bash}
 docker rm -f <CONTAINER ID>
