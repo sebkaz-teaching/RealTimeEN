@@ -44,13 +44,50 @@ jupyterlab
 ```
 
 
-## Python env with Jupyter LAB Docker Version
+## Python env with JupyterLAB Docker Version
 
+### Cookiecutter project 
+From [GitHub](https://github.com/sebkaz/jupyterlab-project) repository You can
+find how to use a cookiecutter for any data science project or other kind of programs. 
+
+To run and build full dockerfile project:
+Create python env and install cookiecutter library.
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip --no-cache install --upgrade pip setuptools
+pip install cookiecutter
+```
+and run:
+```bash
+cookiecutter https://github.com/sebkaz/jupyterlab-project
+```
+You can run a cookiecutter project directly from GitHub repo.
+
+Answer questions: 
+```bash
+cd jupyterlab
+docker-compose up -d --build
+```
+To stop: 
+```bash
+docker-compose down
+```
+
+### Cookiecutter with config yaml file
+
+1. [Python, Julia, R](https://github.com/sebkaz/docker-jupyterlab)
+2. [All + Apache Spark](https://github.com/sebkaz/docker-spark-jupyterlab)
+
+Clone repo and run:
+```bash 
+python3 -m cookiecutter https://github.com/sebkaz/jupyterlab-project --no-input --config-file=spark_template.yml --overwrite-if-exists
+```
 
 ## Older Docker version with Jupyter notebook
 
-#### From GIT hub repository
-[Git](https://github.com/sebkaz/docker-data-science)
+#### From GitHub repository
+Take Dockerfile from [Git](https://github.com/sebkaz/docker-data-science) repository and run:
 
 ```bash
 docker build -t docker-data-science
@@ -59,12 +96,12 @@ docker run -d -p 8888:8888 docker-data-science
 ```
 
 #### From Docker Hub repository
-
+You can also run this image from DockerHub repo:
 ```bash
 docker run -d -p 8888:8888 sebkaz/docker-data-science
 ```
 
-After docker run: go to _http://localhost:8888_
+After docker run go to _http://localhost:8888_
 
 PASS: root
 
@@ -72,17 +109,18 @@ PASS: root
 
 ## Older version with SPARK in Jupyter notebook
 
-#### From GIT hub repository
-[Git](https://github.com/sebkaz/docker-spark-jupyter)
-
+#### From GitHub repository
+Take Dockerfile from [GitHub](https://github.com/sebkaz/docker-spark-jupyter) repository and build the image:
 ```bash
 docker build -t docker-spark-jupyter
-
+```
+After that You can run it with:
+```bash
 docker run -d -p 8888:8888 docker-spark-jupyter
 ```
 
 #### From Docker Hub repository
-
+You can also run this image from DockerHub repo:
 ```bash
 docker run -d -p 8888:8888 sebkaz/docker-spark-jupyter
 ```
@@ -91,7 +129,7 @@ After docker run: go to _http://localhost:8888_
 
 PASS: root
 
->> !REMEMBER - I don't use -v (_volume_) option so You must save Your works all the time.
+>> REMEMBER - I don't use -v (_volume_) option, so You must save Your works all the time.
 
 
 ## Apache AIRFLOW - local mode 

@@ -3,11 +3,11 @@ layout: page
 title: Interesting www pages
 ---
 
-## From last courses
+## Courses
 
 1. [For beginners in data science](https://www.kaggle.com/learn)
 2. [Python Tutorial for Beginners](https://www.youtube.com/watch?v=t8pPdKYpowI)
-3. [Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
+3. [Python Object-Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
 4. [The Hundred-Page Machine Learning Book by Andriy Bukov](http://themlbook.com/wiki/doku.php)
 5. [Deep - mind educational](https://github.com/deepmind/educational)
 6. [Kubernetes Tutorial](https://www.youtube.com/watch?v=X48VuDVv0do)
@@ -17,7 +17,7 @@ title: Interesting www pages
 ## Software 
 
 1. [Github](https://github.com/)
-2. [Git-instrukcja](https://git-scm.com/book/pl/v2)
+2. [Git-documentation](https://git-scm.com/book/en/v2)
 3. [www.python.org](http://www.python.org/downloads/)
 4. [PyPI python libraries](https://pypi.python.org/pypi)
 5. [Anaconda](http://continuum.io/downloads)
@@ -49,13 +49,13 @@ title: Interesting www pages
 
 ## Jupyter notebook
 
-1. [Galeria ciekawych notatników](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#accessing-an-ibm-quantum-computer-via-notebooks)
+1. [Notebooks gallery](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#accessing-an-ibm-quantum-computer-via-notebooks)
 2. [Intro](https://www.youtube.com/watch?v=HW29067qVWk)
 3. [Kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 4. [Bringing the best out of jupyter for data science](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
 5. [Jupyter extensions](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 6. [I don't like notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U)
-7. [Jupyter lab](https://www.youtube.com/watch?v=NSiPeoDpwuI)
+7. [Jupyterlab](https://www.youtube.com/watch?v=NSiPeoDpwuI)
 8. [Speed up jupyter notebook](https://towardsdatascience.com/speed-up-jupyter-notebooks-20716cbe2025)
 
 ## Data Transformations
@@ -71,7 +71,7 @@ title: Interesting www pages
 - [List of datasets for machine learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research)
 - [UCI Machine Learning Repo](https://oreil.ly/BXLA5)
 - [Public API](https://github.com/toddmotto/public-apis)
-- [Google Datatset Search](https://oreil.ly/Gpv8S)
+- [Google Dataset Search](https://oreil.ly/Gpv8S)
 
 ## Python
 
